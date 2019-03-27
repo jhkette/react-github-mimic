@@ -1,3 +1,3 @@
 ## React demo
 
-This just uses componenet split up into different file to make a mimic version of github. 
+React mimic of Github ui. It just uses comonennts split into different files to make a mimic version of github. 
