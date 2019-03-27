@@ -11,14 +11,10 @@ const FileList = ({ files }) =>
   <table className="file-list">
     <tbody>
       {files.map(file =>
-       
         <FileListItem
           key={file.id}
           file={file}
-        />
-
-
-       
+        />    
       )}
     </tbody>
   </table>;

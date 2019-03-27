@@ -1,4 +1,6 @@
 import React from 'react';
+import Time from './Time';
+
 
 import CommitMessage from './commit'
 import PropTypes from "prop-types";
@@ -13,9 +15,11 @@ const FileListItem = ({ file }) =>
       <CommitMessage
       commit={file.latestCommit}
     />
-
-
-    
+    <td className="age">
+      <Time
+        time={file.updated_at}
+      />
+    </td>    
   </tr>;
 FileListItem.propTypes = {
   file: PropTypes.object.isRequired
